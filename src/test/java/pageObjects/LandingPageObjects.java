@@ -3,7 +3,7 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginPageObjects {
+public class LandingPageObjects {
 	
 	    WebDriver driver = null;
 	    
@@ -11,7 +11,7 @@ public class LoginPageObjects {
         By password = By.id("UserPassword");
         By login = By.xpath("//button[@type='submit']");
         
-        public LoginPageObjects(WebDriver driver) {
+        public LandingPageObjects(WebDriver driver) {
         	this.driver = driver;        	
         }
         

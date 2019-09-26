@@ -13,11 +13,11 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin ={"pretty","html:target/cucumber-html-report/","json:target/cucumber.json"},
-        features = {"src/test/java"},
+        features = {"src/test/java/featureFiles"},
         glue = {"Solvup/stepDefinitions/"},
-        tags ={"@test"}
+        tags ={"@test1"}
                 )
 @Test
-public class TestRunner{
+public class TestRunner {
 	
 }

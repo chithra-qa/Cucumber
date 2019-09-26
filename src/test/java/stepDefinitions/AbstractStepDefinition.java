@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class AbstractStepDefinition {
             
-                protected static WebDriver driver;
+                private static WebDriver driver;
 
                 protected WebDriver getDriver(){
 
