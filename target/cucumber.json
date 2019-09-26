@@ -1,0 +1,59 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-26T00:41:53.118Z",
+        "line": 23,
+        "name": "lodge an abuse case for a regular product in doa period and",
+        "description": "    check for a repair outcome with vendor liability",
+        "id": "login-to-solvup;lodge-an-abuse-case-for-a-regular-product-in-doa-period-and",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I am at the solvup login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I login as \"JB0002\"",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Login to Solvup",
+    "description": "",
+    "id": "login-to-solvup",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featureFiles/Login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
